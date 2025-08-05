@@ -6,13 +6,13 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 //Fetch serve para fazer requisições para servidores, APIs ou bancos de dados pela internet. da pra pegar e lançar dados, ja que o snack não suporta firebase nem ele em si 
 
 //importa as telas
-import TelaInicial from './pages/index';
-import TelaGuia from './pages/guia';
-import TelaCuidados from './pages/cuidados';
-import TelaAuxilio from './pages/auxilio';
-import TelaComunidade from './pages/comunidade';
-import TelaConteudo from './pages/conteudos';
-import TelaFontes from './pages/fontes';
+import TelaInicial from './screens/index.js';
+import TelaGuia from './screens/guia.js';
+import TelaCuidados from './screens/cuidados.js';
+import TelaAuxilio from './screens/auxilio.js';
+import TelaComunidade from './screens/comunidade.js';
+import TelaConteudo from './screens/conteudos.js';
+import TelaFontes from './screens/fontes.js';
 
 
 //cria o objeto de navegação tipo drawer

@@ -35,7 +35,7 @@ export default function TelaCuidados() {
   <ScrollView style={styles.barrinha} ref={navegar}>
           <View style={styles.alinhar}>
           <Image
-            source={require('../assets/Cuidados1.png')}
+            source={require('../assets/images/Cuidados1.png')}
             style={styles.exImagem}
           />
           <Text style={styles.titulo}>Cuidados básicos com bêbes</Text>

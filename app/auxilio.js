@@ -13,7 +13,7 @@ export default function TelaAuxilio() {
         <View style={styles.alinhar}>
 
           <Image
-            source={require('../assets/Auxilio1.png')}
+            source={require('../assets/images/Auxilio1.png')}
             style={styles.exImagem}
           />
        <Text style={styles.titulo1}>Auxílio para pais</Text>

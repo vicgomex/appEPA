@@ -15,7 +15,7 @@ export default function TelaGuia() {
       <ScrollView style={styles.barrinha}>
         <View style={styles.alinhar}>
           <Image
-            source={require('../assets/Guia1.png')}
+            source={require('../assets/images/Guia1.png')}
             style={styles.exImagem}
           />
         </View>

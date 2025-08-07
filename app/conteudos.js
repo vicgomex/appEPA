@@ -1,19 +1,13 @@
 import React, { useRef } from 'react';
 import {
-  View,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  StyleSheet,
-  ScrollView,
-  Linking,
   Image,
-  Button
+  Linking,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View
 } from 'react-native';
-import {
-  RectButton,
-  GestureHandlerRootView,
-} from 'react-native-gesture-handler';
 
 
 
@@ -85,7 +79,7 @@ const navegar = useRef(null);
 
         <View style={styles.alinhar}>
           <Image
-            source={require('../assets/Conteudos1.png')}
+            source={('../assets/images/Conteudos1.png')}
             style={styles.exImagem}
           />
           <Text style={styles.titulo1}>Conteúdos e estudos</Text>

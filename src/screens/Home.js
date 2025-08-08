@@ -1,35 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   View,
   Text,
-  TextInput,
-  TouchableOpacity,
   StyleSheet,
-  ScrollView,
-  Image
+  ScrollView
 } from 'react-native';
 
 export default function TelaFontes() {
   return (
     <View style={styles.container}>
-          <View style={styles.alinhar}>
-          
-          <Text style={styles.titulo}>Fontes do conteúdo</Text>
+      <View style={styles.alinhar}>
+        <Text style={styles.titulo}>Fontes do conteúdo</Text>
       </View>
 
       <ScrollView style={styles.barrinha}>
-      <Text style={styles.subs}>Páginas</Text>
+        <Text style={styles.subs}>Páginas</Text>
         <Text style={styles.paginas}>
           Tua saúde{'\n'}
           Instituto singular{'\n'}
-          Direitos e autismo
+          Direitos e autismo{'\n'}
           Clínica Puzzle
         </Text>
-      <Text style={styles.subs}>Links</Text>
+        <Text style={styles.subs}>Links</Text>
         <Text style={styles.paginas}>
           https://www.neurologica.com.br/blog/sintomas-do-autismo-na-infancia-e-como-identificar-precocemente/
           {'\n'}
-          https://www.indaiatuba.sp.gov.br/saude/primeiros-cuidados-com-o-bebe/ {'\n'}
+          https://www.indaiatuba.sp.gov.br/saude/primeiros-cuidados-com-o-bebe/
         </Text>
       </ScrollView>
     </View>
@@ -44,29 +40,32 @@ const styles = StyleSheet.create({
   },
   titulo: {
     fontSize: 25,
-    fontWeight: 800,
+    fontWeight: '800',
     paddingBottom: 10,
     color: '#F8A06E',
-    textAlign: 'center'
+    textAlign: 'center',
   },
   paginas: {
     color: '#0C090D',
-    fontWeight: 500,
+    fontWeight: '500',
     fontSize: 15,
-    paddingTop: 5
+    paddingTop: 5,
   },
-
   subs: {
     paddingTop: 15,
     fontSize: 17,
-    fontWeight: 700,
-    color: '#51B5A3'
+    fontWeight: '700',
+    color: '#51B5A3',
   },
   exImagem: {
     width: 150,
     height: 150,
   },
-    alinhar: {
+  alinhar: {
     alignItems: 'center',
+  },
+  barrinha: {
+    // adicionei aqui porque estava referenciada no ScrollView
+    marginTop: 10,
   },
 });
